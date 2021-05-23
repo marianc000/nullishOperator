@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div {
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        td {
+            padding: 0.25em;
+        }
+
+        table {
+            width: 12em;
+            border-collapse: collapse;
+            margin-bottom: 1em;
+            display: inline-table;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table>
+            <caption>No default value</caption>
+            <thead>
+                <th></th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Score</th>
+            </thead>
+            <tbody id='noDefault'></tbody>
+        </table>
+        <table>
+            <caption>|| default value</caption>
+            <thead>
+                <th></th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Score</th>
+            </thead>
+            <tbody id='or'></tbody>
+        </table>
+        <table>
+            <caption>undefined</caption>
+            <thead>
+                <th></th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Score</th>
+            </thead>
+            <tbody id='undefined'></tbody>
+        </table>
+        <table>
+            <caption>?? default value</caption>
+            <thead>
+                <th></th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Score</th>
+            </thead>
+            <tbody id='nullish'></tbody>
+        </table>
+         
+    </div>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
